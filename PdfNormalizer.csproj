@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>PdfNormalizer</RootNamespace>
+    <AssemblyName>PdfNormalizer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- 6.5+ is AGPL and needs SetAgplLicense; 6.2.4 is MIT and works for a personal tool. -->
+    <PackageReference Include="PDFsharp" Version="6.2.4" />
+  </ItemGroup>
+</Project>
