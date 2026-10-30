@@ -320,7 +320,7 @@ sealed class MainForm : Form
             ForeColor = SystemColors.GrayText,
             Location = new Point(12, 166),
             Size = new Size(536, 36),
-            Text = "Use variables [path_to_file] and [file_name] for a dynamic file path..",
+            Text = "Use variables [path_to_file] and [file_name] for a dynamic file path.",
         };
 
         _status = new Label
